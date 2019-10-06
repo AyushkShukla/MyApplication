@@ -15,13 +15,13 @@ import static android.app.Activity.RESULT_OK;
 
 public class AddNoteActivity extends AppCompatActivity {
 
-    private static final String EXTRA_TITLE =
+    public static final String EXTRA_TITLE =
             "www.logimetrix.co.myapplication.EXTRA_TITLE";
 
-    private static final String EXTRA_DESCRIPTION =
+    public static final String EXTRA_DESCRIPTION =
             "www.logimetrix.co.myapplication.EXTRA_DESCRIPTION";
 
-    private static final String EXTRA_PRIORITY =
+    public static final String EXTRA_PRIORITY =
             "www.logimetrix.co.myapplication.EXTRA_PRIORITY";
 
     private EditText edit_text_title, edit_text_description;
